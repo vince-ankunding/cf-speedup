@@ -1,4 +1,4 @@
-# 🚀 直播推流加速代理 CF-speedup
+# 🚀 直播推流加速代理 cfworker-orangespeed
 
 <img width="856" height="847" alt="image" src="https://github.com/user-attachments/assets/8518b227-2373-4a9c-8061-1e338a2ffcac" />
 
@@ -25,7 +25,7 @@
    - 进入 Workers & Pages 页面
    - 点击「创建应用程序」
    - 选择「创建 Worker」
-   - 给 Worker 命名（如 `tv-speedup`）
+   - 给 Worker 命名（如 `orangespeed`）
    - 将本项目的完整代码复制到编辑器中
    - 点击「保存并部署」
    - 部署成功后，绑定自定义域名，访问自定义域`https://domain.com` 能成功打开
