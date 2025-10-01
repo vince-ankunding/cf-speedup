@@ -1,0 +1,6 @@
+有些东西就不明着放出来，放角落吧：
+CF WORKER 给你的IP变来变去，中国移动有时候30MS有时200MS
+想固定优选IP的话，新建个域名如pp.domain.com
+cname个优选域名（谷歌一搜一大把），关掉橙色云朵
+worker 设置-域和路由-添加-路由，输入刚刚的pp.domain.com/*
+之前cname的是什么ip，worker就是什么ip了
