@@ -172,7 +172,7 @@ const STREAMING_URL_PATTERNS = [
 
 **解决方案：**
 - 网络链路方向是，你-连接worker的速度-worker连接直播源速度
-- 连接cf速度缓慢，参考[这里](https://github.com/vince-ankunding/cfworker-orangespeed/blob/main/%E4%BC%98%E9%80%89worker-ip)让workerip优选域名
+- 连接cf速度缓慢，参考[这里](https://github.com/vince-ankunding/cfworker-orangespeed/blob/main/%E8%AE%A9%E4%BD%A0%E7%9A%84worker%E4%BC%98%E9%80%89ip)让workerip优选域名
 
 
 ## 📝 更新日志
