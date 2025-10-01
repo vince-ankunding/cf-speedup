@@ -1,4 +1,4 @@
-# 🚀 直播推流加速代理 CF-Speedup
+# 🚀 直播推流加速代理 CF-speedup
 
 <img width="856" height="847" alt="image" src="https://github.com/user-attachments/assets/8518b227-2373-4a9c-8061-1e338a2ffcac" />
 
