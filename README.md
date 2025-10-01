@@ -163,28 +163,21 @@ const STREAMING_URL_PATTERNS = [
 
 ### 问题：无法播放视频
 
-**解决方案：**
-- 检查原始 URL 是否可以直接访问
-- 确认 URL 编码正确
-- 查看浏览器控制台的错误信息
-- 确保目标服务器允许跨域访问
+- 有的直播源会不支持，例如
+- 有多层302跳转
+- ip地址而非域名
+- 直播源限制
 
 ### 问题：播放卡顿
 
 **解决方案：**
-- 检查 Cloudflare 边缘节点与源站的距离
-- 考虑使用 Workers KV 添加缓存层
-- 升级到 Workers Unbound 获得更多 CPU 时间
+- 网络链路方向是，你-连接worker的速度-worker连接直播源速度
+- 连接cf速度缓慢，参考[这里](https://github.com/vince-ankunding/cfworker-orangespeed/blob/main/%E4%BC%98%E9%80%89worker-ip)让workerip优选域名
 
-### 问题：部分视频格式不支持
-
-**解决方案：**
-- 检查 `STREAMING_URL_PATTERNS` 是否包含该格式
-- 添加相应的正则表达式匹配规则
 
 ## 📝 更新日志
 
-### v1.0.0 (2024)
+### v1.0.0 (2025)
 - ✨ 初始版本发布
 - 🎥 支持主流直播协议
 - 🎨 提供可视化配置界面
