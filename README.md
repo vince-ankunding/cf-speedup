@@ -31,6 +31,7 @@
    - 部署成功后，绑定自定义域名，访问自定义域`https://domain.com` 能成功打开
    - 例如需要CF代理加速only墙外访问的'无线新闻台'`http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8`
    - 则在地址栏输入`https://domain.com/http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8`
+   - 结构很简单，就是自定义域名加上斜杠后面跟着需要加速的链接，例如BBC直播源、台标、github项目等
 
 
 
