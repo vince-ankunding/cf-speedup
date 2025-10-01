@@ -29,7 +29,7 @@
    - 将本项目的完整代码复制到编辑器中
    - 点击「保存并部署」
    - 部署成功后，绑定自定义域名，访问自定义域`https://domain.com` 能成功打开
-   - 例如需要CF代理加速'无线新闻台'`http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8`
+   - 例如需要CF代理加速only墙外访问的'无线新闻台'`http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8`
    - 则在地址栏输入`https://domain.com/http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8`
 
 
