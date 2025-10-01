@@ -26,7 +26,7 @@
    - 点击「创建应用程序」
    - 选择「创建 Worker」
    - 给 Worker 命名（如 `orangespeed`）
-   - 将本项目的完整代码复制到编辑器中
+   - 将[本项目](https://github.com/vince-ankunding/cfworker-orangespeed/blob/main/worker.js)的完整代码复制到编辑器中
    - 点击「保存并部署」
    - 部署成功后，绑定自定义域名，访问自定义域`https://domain.com` 能成功打开
    - 例如需要CF代理加速only墙外访问的'无线新闻台'`http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8`
